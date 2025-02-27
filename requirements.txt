@@ -1,0 +1,11 @@
+# Requirements to run the advanced encryption system project
+
+# Python version
+python>=3.0
+streamlit>=0.80
+# Required libraries
+cryptography>=3.4
+pycryptodome>=3.10
+requests>=2.25
+pillow>=11.00
+
