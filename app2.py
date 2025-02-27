@@ -34,7 +34,7 @@ if st.button("Encrypt"):
         st.warning("⚠️ Please enter some text to encrypt.")
 
 # Upload encrypted image
-uploaded_file = st.file_uploader("Upload the encrypted image", type=["png"])
+uploaded_file = st.file_uploader("Upload the encrypted image", type=["jpg","png"])
 
 if st.button("Decrypt"):
     if uploaded_file:
