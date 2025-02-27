@@ -2,8 +2,8 @@ import numpy as np
 from PIL import Image
 from uuid import uuid4
 from math import sqrt, floor
-from Cryptodome.Cipher import AES
-from Cryptodome import Random
+from Crypto.Cipher import AES
+from Crypto import Random
 from base64 import b64encode
 import itertools
 import random

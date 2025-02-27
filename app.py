@@ -16,8 +16,8 @@ from flask import Flask, render_template, request, send_from_directory, jsonify,
 import os
 import numpy as np
 from PIL import Image
-from Cryptodome.Cipher import AES
-from Cryptodome import Random
+from Crypto.Cipher import AES
+from Crypto import Random
 import itertools
 import base64
 
